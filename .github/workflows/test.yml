@@ -1,0 +1,11 @@
+name: Backend
+
+on: push
+
+jobs:
+  Backend:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Test the backend
+        working-directory: ./backend
+        run: mvn clean test
