@@ -22,6 +22,8 @@ public class Cart implements CartModifier, CartProcessor {
     @Autowired
     private Payment cashier;
 
+    private String test;
+
     @Autowired
     private InMemoryDatabase memory;
 
