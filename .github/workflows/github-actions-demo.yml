@@ -1,6 +1,11 @@
 name: Backend
 
-on: push
+on:
+  push:
+    branches:
+      - feature/**
+    paths:
+      - backend/**
 
 jobs:
   Backend:
